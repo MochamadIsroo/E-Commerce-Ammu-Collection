@@ -11,7 +11,7 @@ body {
   background: linear-gradient(300deg, #6b97f1, #56b6d0);
   background-size: 180% 180%;
   animation: gradient-animation 6s ease infinite;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 .header {
@@ -20,6 +20,7 @@ body {
 
 .sign-in {
   margin-top: 5%;
+  padding: 20px 0;
   background-color: #fff;
   width: 400px;
   height: auto;

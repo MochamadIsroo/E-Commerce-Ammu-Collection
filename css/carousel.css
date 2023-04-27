@@ -7,6 +7,7 @@
 .header h1 {
   text-transform: uppercase;
   color: #1b2741;
+  border-bottom: 2px dotted #bad7f2;
 }
 
 .card {
@@ -45,4 +46,35 @@
   transform: scale(1.1);
   background-color: #1b2741;
   color: #f7f6f9;
+}
+
+.card-image1 {
+  background-image: url("/assets/koko.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  box-shadow: none !important;
+}
+.card-image2 {
+  background-image: url("/assets/koko.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  box-shadow: none !important;
+}
+.card-image3 {
+  background-image: url("/assets/sorban.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  box-shadow: none !important;
+}
+.card-image1,
+.card-image2,
+.card-image3 h4 {
+  text-align: center;
+  color: #e1e3ef;
 }

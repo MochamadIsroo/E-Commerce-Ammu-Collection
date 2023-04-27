@@ -159,7 +159,7 @@ form > .search {
 /* -- Index -- */
 
 .hero {
-  background-color: #56b6d0;
+  background-color: #3da9fc;
 }
 .hero > .container {
   padding: 20px;
@@ -202,12 +202,11 @@ form > .search {
 
 .categories {
   text-align: center;
-}
-.categories .search {
   margin-top: 20px;
 }
-.categories .search-product {
-  padding: 7px 12px;
+
+.search-product {
+  padding: 7px 10px;
   border: 0;
   border-bottom: 2px solid #1b2741;
   max-width: 30%;
@@ -215,8 +214,8 @@ form > .search {
 }
 
 .categories-product {
-  margin-top: 20px;
-  border-bottom: 1px solid #e1e3ef;
+  /* margin-top: 20px; */
+  /* border-bottom: 1px solid #e1e3ef; */
   padding: 10px;
 }
 .categories-product .nav-link {
@@ -230,9 +229,32 @@ form > .search {
   color: white;
 }
 
-/* Carousel */
+/* =-=-=-=- Main -=-=-=-= */
 
-/* Main Product */
+/* -- Index -- */
+
+.information {
+  margin: 10% 0;
+}
+
+.card-info {
+  width: 250px;
+  height: auto;
+  border: 2px solid #3da9fc;
+  border-radius: 10px;
+  padding: 20px 25px;
+  margin: 20px 0;
+  background-color: #56b6d0;
+}
+
+.card-info .material-symbols-outlined {
+  font-size: 50px;
+}
+
+.card-info p {
+  text-align: justify;
+  font-weight: bold;
+}
 
 .main-product {
   margin-top: 50px;
@@ -286,13 +308,18 @@ input[type="submit"]:hover {
   background: #094067;
   padding-top: 20px;
   margin-top: 20px;
+  color: black;
 }
 .footer h1 {
   text-align: center;
 }
 
+.about a {
+  text-decoration: none;
+  color: black;
+}
+
 .footer .copyright {
   text-align: center;
-  border-top: 2px solid #e1e3ef;
   padding-bottom: 0;
 }
