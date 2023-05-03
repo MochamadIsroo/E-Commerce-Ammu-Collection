@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Main */
+
+.product-briefing {
+  margin: 2% 0;
+  padding: 20px;
+  border: 1px solid #e1e3ef;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-product {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.detail-product .price {
+  font-size: 24px;
+}
+
+label {
+  width: 110px;
+}
+
+.page-product img {
+  width: 450px;
+}
+
+.variation {
+  padding: 5px 20px;
+  border: 1px solid #e1e3ef;
+  text-align: center;
+}
+
+.qty {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #e1e3ef;
+}
+.qty-min,
+.qty-plus {
+  padding: 0 15px;
+  border: 1px solid #e1e3ef;
+}
+
+.btn {
+  align-items: center;
+}
+
+.btn-buy {
+  padding: 10px 12px;
+  border-radius: 7px;
+  border: none;
+  background-color: #1b2741;
+  color: #f7f6f9;
+  font-size: 15px;
+  cursor: pointer;
+  align-items: center;
+}
+.btn-buy:hover {
+  background-color: #1b2741;
+  color: #f7f6f9;
+}

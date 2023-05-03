@@ -234,33 +234,36 @@ form > .search {
 /* -- Index -- */
 
 .information {
-  margin: 10% 0;
+  margin-top: 10%;
+  background-color: #3da9fc;
+  padding: 50px;
 }
 
 .card-info {
-  width: 250px;
+  width: 150px;
   height: auto;
   border: 2px solid #3da9fc;
   border-radius: 10px;
   padding: 20px 25px;
   margin: 20px 0;
-  background-color: #56b6d0;
+  background-color: #7743db;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 }
 
-.card-info .material-symbols-outlined {
-  font-size: 50px;
+.bg-ungu {
+  background-color: #5725e5 !important;
 }
 
-.card-info p {
-  text-align: justify;
-  font-weight: bold;
+.card-info img {
+  width: 50px;
+  margin-bottom: 10px;
 }
 
 .main-product {
   margin-top: 50px;
 }
 
-/* Contact */
+/* -- Contact -- */
 
 .main-contact {
   margin-top: 30px;
@@ -319,7 +322,12 @@ input[type="submit"]:hover {
   color: black;
 }
 
+.input-group-text {
+  background-color: #3da9fc;
+}
+
 .footer .copyright {
   text-align: center;
-  padding-bottom: 0;
+  padding-bottom: 5px;
+  margin-top: 2%;
 }

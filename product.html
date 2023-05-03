@@ -33,15 +33,20 @@
             <li class="nav-item">
               <a class="nav-link fs-6 fw-bold" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link fs-6 fw-bold" href="product.html">Product</a>
+            <li class="nav-item dropdown fw-bold">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Product</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Baju Muslim</a></li>
+                <li><a class="dropdown-item" href="#">Abaya Muslimah</a></li>
+                <li><a class="dropdown-item" href="#">Sorban</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link fs-6 fw-bold" href="contact.html">Contact</a>
             </li>
           </ul>
           <form class="d-flex form-header">
-            <!-- <input class="form-control me-3 search" type="search" placeholder="Search" aria-label="Search" /> -->
+            <input class="form-control me-3 search" type="search" placeholder="Search" aria-label="Search" />
             <button type="button" class="btn material-symbols-rounded" id="cart-icon">shopping_cart</button>
             <button type="button" class="btn material-symbols-rounded">account_circle</button>
           </form>
@@ -56,30 +61,6 @@
       </div>
     </div>
     <!-- End Hero -->
-
-    <!-- Kategori -->
-
-    <div class="container categories">
-      <div class="search">
-        <input type="text" class="search-product" placeholder="Search..." />
-      </div>
-      <div class="categories-product">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Show All</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Koko</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Abaya</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sorban</a>
-          </li>
-        </ul>
-      </div>
-    </div>
 
     <!-- Main -->
 
@@ -234,6 +215,33 @@
       </div>
     </section>
 
+    <section>
+      <div class="container">
+        <div class="information text-center">
+          <h3>Why U Picking Us</h3>
+          <h3>We Only Provide Quality Products For Customer Satisfaction</h3>
+          <div class="card-information d-flex justify-content-center gap-3">
+            <div class="card-info bg-ungu">
+              <img src="assets/free-delivery.png" alt="" />
+              <h5 class="fw-bold">Free Shipping</h5>
+            </div>
+            <div class="card-info">
+              <img src="assets/return-box.png" alt="" />
+              <h5 class="fw-bold">Secured Payment</h5>
+            </div>
+            <div class="card-info bg-ungu">
+              <img src="assets/guarantee.png" alt="" />
+              <h5 class="fw-bold">Guarantee</h5>
+            </div>
+            <div class="card-info">
+              <img src="assets/24-hours.png" alt="" />
+              <h5 class="fw-bold">Customer Support</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer>
       <div class="footer">
@@ -243,14 +251,13 @@
             <h4 class="text-center">Contact Us</h4>
             <p>ammucollection@gmail.com</p>
             <p>+62 851 5675 0492</p>
-            <p>Monday - Saturday: 10:00 am to 5pm (WIB)</p>
           </div>
           <div class="about">
             <h4>About</h4>
             <p><a href="help.html">FAQs</a></p>
           </div>
-          <div class="newsletter text-center">
-            <h4>Newsletter</h4>
+          <div class="newsletter">
+            <h4>Subscribe</h4>
             <div class="input-group">
               <input type="text" class="form-control" />
               <button type="button" class="input-group-text">Join Us</button>
