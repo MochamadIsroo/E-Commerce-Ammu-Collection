@@ -4,37 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="style.css" /> -->
-    <link rel="stylesheet" href="css/register.css" />
+
+    <link rel="stylesheet" href="assets/css/register.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
     <title>Ammu Collection</title>
   </head>
   <body>
-    <div class="sign-up-wrapper">
-      <div class="sign-up">
-        <h2 class="title">Sign Up</h2>
-        <div class="input-box">
-          <span>Nama Lengkap</span>
-          <input type="email" class="input" placeholder="Masukan Nama Lengkap..." required />
+    <section class="container">
+      <div class="card">
+        <div class="d-flex justify-content-center align-items-center gap-5">
+          <div class="image d-flex align-items-center">
+            <img src="assets/image/logo.png" width="400px" alt="" />
+          </div>
+          <div class="form-login">
+            <h1 class="text-center fw-bold pb-4">Sign Up</h1>
+
+            <form action="" class="d-grid">
+              <label for="nama" class="form-label">Nama Lengkap</label>
+              <input type="email" class="form-control" id="nama" placeholder="Enter Your Name" required />
+
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter Your Email" required />
+
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Enter Your Password" required />
+
+              <label for="address" class="form-label">Alamat (Opsional)</label>
+              <textarea class="form-control" id="address" rows="2"></textarea>
+
+              <button type="submit" class="btn btn-success p-2 mt-2">Submit</button>
+
+              <p class="pt-3">Sudah punya akun ? <a href="login.html" class="fw-normal">Login</a></p>
+            </form>
+          </div>
         </div>
-        <div class="input-box">
-          <span>Telepon</span>
-          <input type="number" class="input" placeholder="Masukan No. Telp..." required />
-        </div>
-        <div class="input-box">
-          <span>Email</span>
-          <input type="email" class="input" placeholder="Masukan Email..." required />
-        </div>
-        <div class="input-box">
-          <span>Password</span>
-          <input type="password" class="input" placeholder="Masukan Password..." required />
-        </div>
-        <div class="input-box">
-          <span>Alamat</span>
-          <textarea type="text" class="input" placeholder="Masukan Alamat Lengkap..." rows="5" required></textarea>
-        </div>
-        <button class="submit-btn">Submit</button>
-        <p>Sudah punya akun?<a class="scroll" href="login.html"> Login disini</a></p>
       </div>
-    </div>
+    </section>
   </body>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
 </html>

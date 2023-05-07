@@ -4,32 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="css/style.css" /> -->
-    <link rel="stylesheet" href="css/register.css" />
+
+    <link rel="stylesheet" href="assets/css/register.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
     <title>Ammu Collection</title>
   </head>
   <body>
-    <div class="sign-up-wrapper">
-      <div class="sign-in">
-        <h2 class="title">Login</h2>
-        <div class="input-box">
-          <span>Email</span>
-          <input type="email" class="input" placeholder="Enter Your Email..." required />
-        </div>
-        <div class="input-box">
-          <span>Password</span>
-          <input type="password" class="input" placeholder="Enter Your Password..." required />
-        </div>
-        <a class="forgot" href="forgot.html">Forgot Password?</a>
-        <button class="submit-btn">Submit</button>
-        <h3 class="sign-in-with">Or Sign In With</h3>
+    <section class="container">
+      <div class="card">
+        <div class="d-flex justify-content-center align-items-center gap-5">
+          <div class="image d-flex align-items-center">
+            <img src="assets/image/logo.png" width="400px" alt="" />
+          </div>
+          <div class="form-login">
+            <h1 class="text-center fw-bold pb-4">Welcome Back</h1>
 
-        <button class="btn">
-          <img class="icon" src="/assets/google.png" alt="google" />
-        </button>
+            <form action="" class="d-grid">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter Your Email" required />
 
-        <p>Belum punya akun? <a class="scroll" href="register.html">Daftar disini</a></p>
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Enter Your Password" required />
+
+              <a href="forgot.html" class="text-decoration-none text-end text-dark pb-3">Forgot Password</a>
+
+              <button type="submit" class="btn btn-success p-2">Login</button>
+              <hr />
+              <button type="submit" class="btn p-2 gap-5"><img src="assets/image/google.png" width="20px" alt="" /> Sign In With Google</button>
+
+              <p class="pt-3">Belum punya akun ? <a href="register.html" class="fw-normal">Daftar Disini</a></p>
+            </form>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   </body>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
 </html>

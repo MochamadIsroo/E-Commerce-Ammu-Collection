@@ -4,20 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/register.css" />
+
+    <link rel="stylesheet" href="assets/css/register.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <title>Ammu Collection</title>
   </head>
   <body>
-    <div class="sign-up-wrapper">
-      <div class="forgot-pass">
-        <h2 class="title">Forgot your Password</h2>
-        <div class="input-box">
-          <span>Email</span>
-          <input type="email" class="input" placeholder="Enter Your Email..." required />
+    <section class="container">
+      <div class="card">
+        <div class="d-flex justify-content-center align-items-center gap-5">
+          <div class="form-login">
+            <h1 class="text-center fw-bold pb-4">Reset Password</h1>
+
+            <form action="" class="d-grid">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter Your Email" />
+
+              <button type="submit" class="btn btn-success p-2 mt-2">Submit</button>
+
+              <a href="login.html" class="fw-normal pt-3 text-end">Kembali</a>
+            </form>
+          </div>
         </div>
-        <button class="submit-btn">Kirim</button>
-        <a href="login.html" class="scroll">Kembali</a>
       </div>
-    </div>
+    </section>
   </body>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
 </html>
