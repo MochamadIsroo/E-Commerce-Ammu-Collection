@@ -308,6 +308,12 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 
+/* -- FAQs */
+
+.faq {
+  height: 80vh;
+}
+
 /* Footer */
 
 .footer {
